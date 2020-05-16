@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new.css</title>
+    <meta name="description" content="A classless CSS framework to write modern websites using only HTML.">
+    <meta name="keywords" content="newcss,new.css,css,xz,css framework,classless css,xz.style">
+    <meta property="og:title" content="new.css">
+    <meta property="og:site_name" content="A classless CSS framework to write modern websites using only HTML.">
+    <meta property="og:url" content="https://newcss.net">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://newcss.net/_assets/og.png">
+    <link rel="stylesheet" href="/new.min.css">
+</head>
+<body>
+    <header>
+        <h1>new.css</h1>
+        <nav>
+            <a href="https://newcss.net">Home</a> / <a href="https://github.com/xz/new.css">GitHub</a> / <a href="https://discord.gg/hhuuC4w">Discord</a>
+        </nav>
+    </header>
+
+    <blockquote>
+        <i>This site is made from vanilla HTML and the default new.css theme. <a href="https://github.com/xz/new.css/blob/master/index.html">View Source</a></i>
+    </blockquote>
+
+    <h1 id="new-css">new.css</h1>
+
+    <p>A classless CSS framework to write modern websites using only HTML. It weighs<strong>~4.5kb</strong>.</p>
+
+    <p><strong>View a demo <a href="https://newcss.net/demo/">here</a>, or all HTML elements <a href="https://newcss.net/all/">here</a>.</strong></p>
+
+    <p><a href="https://vercel.com?utm_source=xz&utm_campaign=new.css">Vercel</a>'s impossibly fast CDN delivers new.css and the font <a href="https://rsms.me/inter">Inter</a> using <a href="https://github.com/xz/fonts">xz/fonts</a>, so there's virtually no bloat added to your pages.</p>
+
+    <p>And of course, there's a dark mode. It automatically applies a light/dark theme based on your browser's preference.</p>
+
+    <p>It supports custom color themes and fonts using CSS variables. For example, check out the terminal theme: <a href="https://newcss.net/theme/terminal/">newcss.net/theme/terminal/</a></p>
+    
+    <p>new.css is a project from <a href="https://xz.style">xz</a>.</p>
+
+    <br>
+
+    <h2 id="table-of-contents">Table of Contents</h2>
+
+    <ul>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#use-cases">Use Cases</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#themes">Themes</a>
+            <ul>
+                <li><a href="#customizing">Customizing</a></li>
+                <li><a href="#legend">Legend</a></li>
+                <li><a href="#usage">Usage</a></li>
+            </ul>
+        </li>
+        <li><a href="#pre-made-themes">Pre-made Themes</a>
+            <ul>
+                <li><a href="#night">Night</a></li>
+                <li><a href="#terminal">Terminal</a></li>
+            </ul>
+        </li>
+        <li><a href="#special-thanks">Special Thanks</a></li>
+    </ul>
+
+    <br>
+
+    <h2 id="usage">Usage</h2>
+
+    <p>Here's your configuration:</p>
+
+    <ol>
+        <li>Add <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://newcss.net/new.min.css&quot;&gt;</code> to your <code>&lt;head&gt;</code>.</li>
+        <li>Done.</li>
+    </ol>
+
+    <blockquote>
+        <p>💡 Use the code <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://newcss.net/lite.css&quot;&gt;</code> for the lite version, which uses the system font stack rather than importing one.</p>
+    </blockquote>
+
+    <br>
+
+    <h2 id="use-cases">Use Cases</h2>
+
+    <ul>
+        <li>A dead-simple blog</li>
+        <li>Collecting your most used links</li>
+        <li>Making a simple &quot;about me&quot; site</li>
+        <li>Rendering markdown-generated HTML</li>
+    </ul>
+
+    <br>
+
+    <h2 id="details">Details</h2>
+
+    <p>Here are the improvements new.css adds to your browser's basic HTML.</p>
+    
+    <details>
+        <summary>Full Changes</summary>
+
+        <ul>
+            <li><strong>Global</strong>
+                <ul>
+                    <li>Slightly increase all text sizes</li>
+                    <li>Use a less harsh color scheme</li>
+                    <li>Use the Inter font, and if not possible, the system font</li>
+                    <li>Redefine all margins to more sensible defaults</li>
+                </ul>
+            </li>
+            <li><code>body</code>
+                <ul>
+                    <li>Set a reasonable max width</li>
+                    <li>Centered the body element, keeping left-alignment</li>
+                </ul>
+            </li>
+            <li><code>abbr</code>
+                <ul>
+                    <li>Question mark cursor on hover</li>
+                </ul>
+            </li>
+            <li><code>blockquote</code>
+                <ul>
+                    <li>Improved margins</li>
+                    <li>Added background color</li>
+                </ul>
+            </li>
+            <li><code>button</code>
+                <ul>
+                    <li>Appears uniformly across browsers</li>
+                    <li>Looks like a real button</li>
+                </ul>
+            </li>
+            <li><code>code</code>
+                <ul>
+                    <li>Added background color</li>
+                    <li>Added outline stroke</li>
+                </ul>
+            </li>
+            <li><code>details</code>
+                <ul>
+                    <li>Looks more button-like with background color and link cursor
+                        on hover</li>
+                </ul>
+            </li>
+            <li><code>h1</code>–<code>h6</code>
+                <ul>
+                    <li>Uniform margins and padding</li>
+                    <li>Tweaked font size</li>
+                </ul>
+            </li>
+            <li><code>h1-h3</code>
+                <ul>
+                    <li>Added thin bottom border line</li>
+                </ul>
+            </li>
+            <li><code>hr</code>
+                <ul>
+                    <li>Changed to single 1px line</li>
+                </ul>
+            </li>
+            <li><code>kbd</code>
+                <ul>
+                    <li>Looks like a real keyboard key</li>
+                </ul>
+            </li>
+            <li><code>mark</code>
+                <ul>
+                    <li>Added padding</li>
+                    <li>Color follows theme</li>
+                </ul>
+            </li>
+            <li><code>nav</code>
+                <ul>
+                    <li>Added between-element margins</li>
+                </ul>
+            </li>
+            <li><code>samp</code>
+                <ul>
+                    <li>Ambiguous element, merged with <code>code</code></li>
+                </ul>
+            </li>
+            <li><code>table</code>
+                <ul>
+                    <li>Basic styling to make cells more discernable
+                        <ul>
+                            <li>Border stroke across all cells</li>
+                            <li>Alternating row background color</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </details>
+    
+    <br>
+
+    <h2 id="themes">Themes</h2>
+
+    <p>new.css uses an 10-color palette and can be easily customized. These are declared as CSS variables in the <code>:root</code> attribute.</p>
+
+    <blockquote>
+        <p>💡 Both <code>new.min.css</code> and <code>lite.css</code> have support for custom themes. <code>lite</code> doesn't import the font Inter by default, so it is recommended if you are using a custom font.</p>
+    </blockquote>
+
+    <h3 id="customizing">Customizing</h3>
+
+    <p>By loading a secondary style sheet after new.css in your HTML, you can override these variables. Here's the default theme:</p>
+
+    <details>
+        <summary>Default theme</summary>
+
+        <pre>
+@import url('https://fonts.xz.style/serve/inter.css');
+
+:root {
+--nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont,
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open
+Sans', 'Helvetica Neue', sans-serif, &quot;Apple Color
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;
+--nc-font-mono: 'Courier New', Courier, 'Ubuntu Mono',
+'Liberation Mono', monospace;
+--nc-tx-1: #000000;
+--nc-tx-2: #1A1A1A;
+--nc-bg-1: #FFFFFF;
+--nc-bg-2: #F6F8FA;
+--nc-bg-3: #E5E7EB;
+--nc-lk-1: #0070F3;
+--nc-lk-2: #0366D6;
+--nc-lk-tx: #FFFFFF;
+--nc-ac-1: #79FFE1;
+--nc-ac-tx: #0C4047;
+}</pre>
+    </details>
+
+    <h3 id="legend">Legend</h3>
+
+    <ul>
+        <li><code>--nc-font-sans</code>: Font for all text besides code or
+            preformatted</li>
+        <li><code>--nc-font-mono</code>: Font for <code>&lt;code&gt;</code>, <code>&lt;pre&gt;</code>,
+            <code>&lt;kbd&gt;</code>, <code>&lt;samp&gt;</code></li>
+        <li><code>--nc-tx-1</code>: Heading text color</li>
+        <li><code>--nc-tx-2</code>: Body text color</li>
+        <li><code>--nc-bg-1</code>: Base background color</li>
+        <li><code>--nc-bg-2</code>: Slightly darker background color</li>
+        <li><code>--nc-bg-3</code>: Even slightly darker background color</li>
+        <li><code>--nc-lk-1</code>: Action color for links and buttons</li>
+        <li><code>--nc-lk-2</code>: Link and buttons on mouse hover and active</li>
+        <li><code>--nc-ac-1</code>: Accent color for <code>&lt;mark&gt;</code> and
+            text selection background</li>
+    </ul>
+
+    <h3 id="usage">Usage</h3>
+
+    <ol>
+        <li>Create a stylesheet including some or all of the above variables in the <code>:root</code>. An example theme file is available here: <a href="https://newcss.net/theme/boilerplate.css">boilerplate.css</a></li>
+
+        <li>If you'd like to import custom fonts, put the <code>@import</code> tag before the <code>:root</code> element. Many open-source fonts are available on <a href="https://github.com/xz/fonts">xz/fonts</a>.</li>
+
+        <li>Reference your new stylesheet <strong>after</strong> new.css in your <code>&lt;head&gt;</code>. Here's an example <code>&lt;head&gt;</code>:
+            <pre>
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://newcss.net/lite.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://example.com/MY-CUSTOM-THEME.css&quot;&gt;
+&lt;/head&gt;</pre>
+        </li>
+    </ol>
+
+    <br>
+    
+    <h2 id="pre-made-themes">Pre-Made Themes</h2>
+
+    <p>Here are two extra themes with CDN links. Feel free to use or edit them!</p>
+
+    <h3 id="night">Night</h3>
+
+    <p>Night theme is enabled by default if your browser is set to prefer dark themes. Using the theme link below makes it use night theme regardless.</p>
+
+    <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://newcss.net/theme/night.css&quot;&gt;</code>
+
+    <p>Preview at <a href="https://newcss.net/theme/night/">newcss.net/theme/night/</a></p>
+
+    <p><img src="_assets/night.png" alt="Night theme" width="400px"></p>
+
+    <h3 id="terminal">Terminal</h3>
+
+    <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://newcss.net/theme/terminal.css&quot;&gt;</code>
+
+    <p>Preview at <a href="https://newcss.net/theme/terminal/">newcss.net/theme/terminal/</a></p>
+
+    <p><img src="_assets/terminal.png" alt="Terminal theme" width="400px"></p>
+
+    <br>
+
+    <h2 id="special-thanks">Special Thanks</h2>
+
+    <ul>
+        <li><a href="https://github.com/oxalorg/sakura">sakura by oxal</a> for introducing me to classless CSS</li>
+        <li><a href="https://mydarkstar.net/">mydarkstar</a> for priceless advice</li>
+        <li><a href="https://vercel.com/?utm_source=xz&amp;utm_campaign=new.css">Vercel</a> for sponsoring <a href="https://xz.style">xz</a> and for their amazing color palettes</li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+
+    <p><a href="https://vercel.com?utm_source=xz&amp;utm_campaign=new.css" target="_blank"><img src="https://vercel-badges.now.sh/powered-by-vercel.svg" alt="Powered by Vercel"></a></p>
+
+
+    <script async defer src="https://api.newcss.net/latest.js"></script>
+    <noscript><img src="https://api.newcss.net/noscript.gif" alt=""></noscript>
+</body>
+</html>
