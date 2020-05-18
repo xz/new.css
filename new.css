@@ -80,9 +80,9 @@ html,input,select,button {
 body {
 	/* Center body in page */
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 46.875rem;
 	padding: 2rem;
-	border-radius: 6px;
+	border-radius: .375rem;
 	overflow-x: hidden;
 	background: var(--nc-bg-1);
 
@@ -112,9 +112,9 @@ h1,
 h2,
 h3 {
 	color: var(--nc-tx-1);
-	padding-bottom: 2px;
-	margin-bottom: 8px;
-	border-bottom: 1px solid var(--nc-bg-2);
+	padding-bottom: .125rem;
+	margin-bottom: .5rem;
+	border-bottom: 0.0625rem solid var(--nc-bg-2);
 }
 
 h4,
@@ -163,7 +163,7 @@ abbr:hover {
 blockquote {
 	padding: 1.5rem;
 	background: var(--nc-bg-2);
-	border-left: 5px solid var(--nc-bg-3);
+	border-left: .3125rem solid var(--nc-bg-3);
 }
 
 abbr {
@@ -177,7 +177,7 @@ blockquote *:last-child {
 
 header {
 	background: var(--nc-bg-2);
-	border-bottom: 1px solid var(--nc-bg-3);
+	border-bottom: 0.0625rem solid var(--nc-bg-3);
 	padding: 2rem 1.5rem;
 	
 	/* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
@@ -219,14 +219,14 @@ input[type="reset"],
 input[type="button"] {
 	font-size: 1rem;
 	display: inline-block;
-	padding: 6px 12px;
+	padding: .375rem .75rem;
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
 	background: var(--nc-lk-1);
 	color: var(--nc-lk-tx);
 	border: 0;
-	border-radius: 4px;
+	border-radius: .25rem;
 	box-sizing: border-box;
 	cursor: pointer;
 	color: var(--nc-lk-tx);
@@ -271,15 +271,15 @@ kbd,
 pre {
 	/* The main preformatted style. This is changed slightly across different cases. */
 	background: var(--nc-bg-2);
-	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
-	padding: 3px 6px;
+	border: 0.0625rem solid var(--nc-bg-3);
+	border-radius: .25rem;
+	padding: .1875rem .375rem;
 	font-size: 0.9rem;
 }
 
 kbd {
 	/* Makes the kbd element look like a keyboard key */
-	border-bottom: 3px solid var(--nc-bg-3);
+	border-bottom: .1875rem solid var(--nc-bg-3);
 }
 
 pre {
@@ -313,8 +313,8 @@ details {
 	/* Make the <details> look more "clickable" */
 	padding: .6rem 1rem;
 	background: var(--nc-bg-2);
-	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
+	border: 0.0625rem solid var(--nc-bg-3);
+	border-radius: .25rem;
 }
 
 summary {
@@ -330,7 +330,7 @@ details[open] {
 
 details[open] summary {
 	/* Adjust the <details> padding while open */
-	margin-bottom: 6px;
+	margin-bottom: .375rem;
 }
 
 details[open]>*:last-child {
@@ -350,15 +350,15 @@ dd::before {
 hr {
 	/* Reset the border of the <hr> separator, then set a better line */
 	border: 0;
-	border-bottom: 1px solid var(--nc-bg-3);
+	border-bottom: 0.0625rem solid var(--nc-bg-3);
 	margin: 1rem auto;
 }
 
 fieldset {
 	margin-top: 1rem;
 	padding: 2rem;
-	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
+	border: 0.0625rem solid var(--nc-bg-3);
+	border-radius: .25rem;
 }
 
 legend {
@@ -373,7 +373,7 @@ table {
 
 td,
 th {
-	border: 1px solid var(--nc-bg-3);
+	border: 0.0625rem solid var(--nc-bg-3);
 	text-align: left;
 	padding: .5rem;
 }
@@ -415,7 +415,7 @@ ol ol {
 }
 
 mark {
-	padding: 3px 6px;
+	padding: .1875rem .375rem;
 	background: var(--nc-ac-1);
 	color: var(--nc-ac-tx);
 }
@@ -423,14 +423,14 @@ mark {
 textarea,
 select,
 input {
-	padding: 6px 12px;
+	padding: .375rem .75rem;
 	margin-bottom: .5rem;
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
 
 	/* Set a border of the same color as the main background. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
-	border: 1px solid var(--nc-bg-2);
-	border-radius: 4px;
+	border: 0.0625rem solid var(--nc-bg-2);
+	border-radius: .25rem;
 	box-shadow: none;
 	box-sizing: border-box;
 }
@@ -438,7 +438,7 @@ input {
 textarea:focus,
 select:focus,
 input[type]:focus {
-	border: 1px solid var(--nc-bg-3);
+	border: 0.0625rem solid var(--nc-bg-3);
 
 	/* Reset any browser default outlines */
 	outline: 0;
