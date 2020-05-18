@@ -100,10 +100,6 @@ body {
 	color: var(--nc-ac-tx);
 }
 
-p {
-	margin-bottom: 1rem;
-}
-
 h1,h2,h3,h4,h5,h6 {
 	line-height: 1;
 	color: var(--nc-tx-1);
@@ -430,8 +426,8 @@ input {
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
 
-	/* Set a border of the same color as the main background. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
-	border: 1px solid var(--nc-bg-2);
+	/* Set a transparent border. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
+	border: 1px solid transparent;
 	border-radius: 4px;
 	box-shadow: none;
 	box-sizing: border-box;
@@ -440,7 +436,7 @@ input {
 textarea:focus,
 select:focus,
 input[type]:focus {
-	border: 1px solid var(--nc-bg-3);
+	border-color: var(--nc-bg-3);
 
 	/* Reset any browser default outlines */
 	outline: 0;
