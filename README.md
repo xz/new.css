@@ -1,6 +1,6 @@
 # new.css
 
-**[newcss.net](https://newcss.net) / [xz Discord](https://discord.gg/hhuuC4w)**
+**[newcss.net](https://newcss.net) / [xz Discord](https://discord.gg/hhuuC4w)** / **[Twitter](https://twitter.com/example_dev)**
 
 A classless CSS framework to write modern websites using only HTML. It weighs **~4.5kb**.
 
@@ -191,7 +191,7 @@ Preview at [newcss.net/theme/terminal/](https://newcss.net/theme/terminal/)
 <img src="https://newcss.net/_assets/terminal.png" alt="Terminal theme" width="300px">
 
 ## Sponsors
-- <a href="https://domaincord.org/?utm_source=xz&utm_campaign=new.css">Domaincord</a> (also a domain name discussion group <a href="https://">here</a>!)
+- <a href="https://domaincord.org/?utm_source=xz&utm_campaign=new.css">Domaincord</a> (also a domain name discussion group <a href="https://discord.gg/239EP7G">here</a>!)
 - <a href="https://vercel.com/?utm_source=xz&utm_campaign=new.css">Vercel</a>
 
 ## Special Thanks
