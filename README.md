@@ -2,7 +2,7 @@
 
 A classless CSS framework to write modern websites using only HTML. It weighs **~4.5kb**.
 
-Take a look at the demo on [newcss.net](https://newcss.net/), and the [wiki](https://github.com/xz/new.css/wiki/Semantic-Elements) for information on semantic elements.
+Take a look at the demo on [newcss.net](https://newcss.net/), or the quick-start guide on [newcss.net/quickstart](https://newcss.net/quickstart/).
 
 [Vercel](https://vercel.com?utm_source=xz&amp;utm_campaign=new.css)'s impossibly fast CDN delivers new.css and the font [Inter](https://rsms.me/inter) using [xz/fonts](https://github.com/xz/fonts), so there's virtually no bloat added to your pages.
 
