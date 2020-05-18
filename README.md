@@ -1,5 +1,7 @@
 # new.css
 
+**Quick links: [newcss.net](https://newcss.net) / [xz Discord](https://discord.gg/hhuuC4w)
+
 A classless CSS framework to write modern websites using only HTML. It weighs **~4.5kb**.
 
 Take a look at the demo on [newcss.net](https://newcss.net/), or the quick-start guide on [newcss.net/quickstart](https://newcss.net/quickstart/). It's on npm as `@exampledev/new.css`.
