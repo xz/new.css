@@ -428,8 +428,8 @@ input {
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
 
-	/* Set a border of the same color as the main background. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
-	border: 1px solid var(--nc-bg-2);
+	/* Set a transparent border. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
+	border: 1px solid transparent;
 	border-radius: 4px;
 	box-shadow: none;
 	box-sizing: border-box;
