@@ -1,6 +1,6 @@
 # new.css
 
-**[newcss.net](https://newcss.net) / [xz Discord](https://discord.gg/hhuuC4w)**
+**[newcss.net](https://newcss.net) / [xz Discord](https://discord.gg/hhuuC4w)** / **[Twitter](https://twitter.com/example_dev)**
 
 A classless CSS framework to write modern websites using only HTML. It weighs **~4.5kb**.
 
