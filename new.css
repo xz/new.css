@@ -212,7 +212,7 @@ header > *:last-child {
 	margin-bottom: 0;
 }
 
-.button,
+a button,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -232,7 +232,7 @@ input[type="button"] {
 	color: var(--nc-lk-tx);
 }
 
-.button[disabled],
+a button[disabled],
 button[disabled],
 input[type="submit"][disabled],
 input[type="reset"][disabled],

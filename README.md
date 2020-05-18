@@ -48,6 +48,20 @@ Or, if you prefer npm:
 - Rendering markdown-generated HTML
 
 ## Details
+### Element Guide
+How to use some of new.css' semantic HTML features.
+
+- `button`
+    - Wrap a button in an `<a>` tag to make it a link.
+- Code
+    - For inline code, use `<code>`.
+    - For code blocks, use `<pre>`.
+    - For keyboard input, use `<kbd>`,
+    - There's no reason to nest code tags inside each other, however, `<code>` and `<pre>` will reset themselves to match if you nest them.
+- `header`
+    - **Only use a `<header>` at the top of your `<body>`!**
+    - Creates a large and slightly darker header.
+
 Here are the improvements new.css adds to your browser's basic HTML.
 
 <details>
@@ -175,6 +189,10 @@ Preview at [newcss.net/theme/night/](https://newcss.net/theme/night/)
 Preview at [newcss.net/theme/terminal/](https://newcss.net/theme/terminal/)
 
 <img src="https://newcss.net/_assets/terminal.png" alt="Terminal theme" width="300px">
+
+## Sponsors
+- <a href="https://domaincord.org/?utm_source=xz&utm_campaign=new.css">Domaincord</a> (also a domain name discussion group <a href="https://">here</a>!)
+- <a href="https://vercel.com/?utm_source=xz&utm_campaign=new.css">Vercel</a>
 
 ## Special Thanks
 - [sakura by oxal](https://github.com/oxalorg/sakura) for introducing me to classless CSS
