@@ -244,8 +244,6 @@ input[type="button"][disabled] {
 	cursor: not-allowed;
 }
 
-.button:focus,
-.button:hover,
 button:focus,
 button:hover,
 input[type="submit"]:focus,
