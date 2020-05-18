@@ -4,7 +4,7 @@
 
 :root {
 	--nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	--nc-font-mono: 'Courier New', Courier, 'Ubuntu Mono', 'Liberation Mono', monospace;
+	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
 	--nc-tx-1: #000000;
 	--nc-tx-2: #1A1A1A;
 	--nc-bg-1: #FFFFFF;
@@ -84,6 +84,8 @@ body {
 	padding: 2rem;
 	border-radius: 6px;
 	overflow-x: hidden;
+	word-break: break-word;
+	overflow-wrap: break-word;
 	background: var(--nc-bg-1);
 
 	/* Main body text */
@@ -424,8 +426,8 @@ input {
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
 
-	/* Set a border of the same color as the main background. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
-	border: 1px solid var(--nc-bg-2);
+	/* Set a transparent border. It isn't visible on idle, but prevents the cell from growing in size when a darker border is set on focus. */
+	border: 1px solid transparent;
 	border-radius: 4px;
 	box-shadow: none;
 	box-sizing: border-box;
