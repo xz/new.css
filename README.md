@@ -32,10 +32,23 @@ new.css is a project from [xz](https://xz.style).
 
 Here's your configuration:
 
-1. Add `<link rel="stylesheet" href="https://newcss.net/new.min.css">` to your `<head>`.
-2. Done.
+### HTML
 
-> 💡 Use the code `<link rel="stylesheet" href="https://newcss.net/lite.css">` for the lite version, which uses the system font stack rather than importing one.
+Add this code to the end of your `<head>`:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+```
+
+<br>
+
+> 💡 new.css is best with the font [Inter](https://rsms.me/inter), which the line above imports as well. Use this line instead if you prefer no added fonts:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+```
+
+### npm
 
 Or, if you prefer npm:
 
@@ -113,8 +126,6 @@ Here are the improvements new.css adds to your browser's basic HTML.
 ## Themes
 new.css uses an 10-color palette and can be easily customized. These are declared as a CSS variable in the `:root` attribute.
 
-> 💡 Both `new.min.css` and `lite.css` have support for custom themes. `lite` doesn't import the font Inter by default, so it is recommended if you are using a custom font.
-
 ### Customizing
 
 By loading a secondary style sheet after new.css in your HTML, you can override these variables. Here's the default theme:
@@ -164,7 +175,7 @@ By loading a secondary style sheet after new.css in your HTML, you can override 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://newcss.net/lite.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.0/new.min.css">">
     <link rel="stylesheet" href="https://example.com/MY-CUSTOM-THEME.css">
 </head>
 ```
