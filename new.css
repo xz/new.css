@@ -78,7 +78,7 @@ body {
 	margin: 0 auto;
 	max-width: 750px;
 	padding: 2rem;
-	border-radius: 6px;
+	/* removed border-radius because it makes no sense */
 	overflow-x: hidden;
 	word-break: break-word;
 	overflow-wrap: break-word;
@@ -86,7 +86,7 @@ body {
 
 	/* Main body text */
 	color: var(--nc-tx-2);
-	font-size: 1.03rem;
+	font-size: 1rem; /* make fonts more crispy to 16px */
 	line-height: 1.5;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	line-height: 1;
+	line-height: 1.3; /* line-height increase for better readability */
 	color: var(--nc-tx-1);
 	padding-top: .875rem;
 }
@@ -106,8 +106,9 @@ h1,
 h2,
 h3 {
 	color: var(--nc-tx-1);
-	padding-bottom: 2px;
-	margin-bottom: 8px;
+	padding-bottom: .25rem;
+	margin-bottom: .5rem;
+	/* updated pixel values to rem */
 	border-bottom: 1px solid var(--nc-bg-2);
 }
 
@@ -213,14 +214,14 @@ input[type="reset"],
 input[type="button"] {
 	font-size: 1rem;
 	display: inline-block;
-	padding: 6px 12px;
+	padding: .5rem .75rem; /* updated pixel values to rem */
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
 	background: var(--nc-lk-1);
 	color: var(--nc-lk-tx);
 	border: 0;
-	border-radius: 4px;
+	border-radius: .5rem; /* updated pixel values to rem */
 	box-sizing: border-box;
 	cursor: pointer;
 	color: var(--nc-lk-tx);
@@ -266,9 +267,9 @@ pre {
 	/* The main preformatted style. This is changed slightly across different cases. */
 	background: var(--nc-bg-2);
 	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
-	padding: 3px 6px;
-	font-size: 0.9rem;
+	border-radius: .25rem;  /* updated pixel values to rem */
+	padding: .25rem .5rem; /* updated pixel values to rem */
+	font-size: .875rem; /* cleaner rem-scale value */
 }
 
 kbd {
@@ -277,7 +278,7 @@ kbd {
 }
 
 pre {
-	padding: 1rem 1.4rem;
+	padding: 1rem 1.5rem; /* cleaner rem-scale value */
 	max-width: 100%;
 	overflow: auto;
 }
@@ -305,10 +306,10 @@ code pre {
 
 details {
 	/* Make the <details> look more "clickable" */
-	padding: .6rem 1rem;
+	padding: .75rem 1rem; /* cleaner rem-scale value */
 	background: var(--nc-bg-2);
 	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
+	border-radius: .25rem; /* cleaner rem-scale value */
 }
 
 summary {
@@ -417,14 +418,15 @@ mark {
 textarea,
 select,
 input {
-	padding: 6px 12px;
+	padding: .5rem .75rem; /* updated pixel values to rem */
 	margin-bottom: .5rem;
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
 	border: 1px solid var(--nc-bg-3);
-	border-radius: 4px;
+	border-radius: .25rem; /* cleaner rem-scale value */
 	box-shadow: none;
 	box-sizing: border-box;
+	font-size: 1rem; /* added font-size to prevent zooming in mobile browsers */
 }
 
 img {
