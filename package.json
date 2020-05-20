@@ -1,6 +1,6 @@
 {
   "name": "@exampledev/new.css",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A classless CSS framework to write modern websites using only HTML.",
   "main": "new.css",
   "repository": {

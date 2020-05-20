@@ -6,7 +6,7 @@ A classless CSS framework to write modern websites using only HTML. It weighs **
 
 Take a look at the demo on [newcss.net](https://newcss.net/), or the quick-start guide on [newcss.net/usage](https://newcss.net/usage/). It's on npm as `@exampledev/new.css`.
 
-[Vercel](https://vercel.com?utm_source=xz&amp;utm_campaign=new.css)'s impossibly fast CDN delivers new.css and the font [Inter](https://rsms.me/inter) using [xz/fonts](https://github.com/xz/fonts), so there's virtually no bloat added to your pages.
+[Vercel](https://vercel.com?utm_source=xz&amp;utm_campaign=new.css)'s impossibly fast CDN delivers the font [Inter](https://rsms.me/inter) using [xz/fonts](https://github.com/xz/fonts), so there's virtually no bloat added to your pages.
 
 And of course, there's a dark mode. It automatically applies a light/dark theme based on your browser's preference.
 
@@ -36,7 +36,7 @@ Here's your configuration:
 
 Add this code to the end of your `<head>`:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
+<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 ```
 
@@ -175,7 +175,7 @@ By loading a secondary style sheet after new.css in your HTML, you can override 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.0/new.min.css">">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.3/new.min.css">">
     <link rel="stylesheet" href="https://example.com/MY-CUSTOM-THEME.css">
 </head>
 ```
