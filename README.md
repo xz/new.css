@@ -175,7 +175,7 @@ By loading a secondary style sheet after new.css in your HTML, you can override 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.0/new.min.css">">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">">
     <link rel="stylesheet" href="https://example.com/MY-CUSTOM-THEME.css">
 </head>
 ```
