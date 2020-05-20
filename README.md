@@ -6,8 +6,6 @@ A classless CSS framework to write modern websites using only HTML. It weighs **
 
 Take a look at the demo on [newcss.net](https://newcss.net/), or the quick-start guide on [newcss.net/usage](https://newcss.net/usage/). It's on npm as `@exampledev/new.css`.
 
-[Vercel](https://vercel.com?utm_source=xz&amp;utm_campaign=new.css)'s impossibly fast CDN delivers new.css and the font [Inter](https://rsms.me/inter) using [xz/fonts](https://github.com/xz/fonts), so there's virtually no bloat added to your pages.
-
 And of course, there's a dark mode. It automatically applies a light/dark theme based on your browser's preference.
 
 It supports custom color themes and fonts using CSS variables. For example, check out the terminal theme: [newcss.net/theme/terminal/](https://newcss.net/theme/terminal/)
