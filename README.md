@@ -52,7 +52,7 @@ Add this code to the end of your `<head>`:
 
 Or, if you prefer npm:
 
-1. `npm -i @exampledev/new.css`
+1. `npm i @exampledev/new.css`
 
 ## Use Cases
 - A dead-simple blog
