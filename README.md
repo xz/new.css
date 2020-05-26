@@ -54,6 +54,12 @@ Or, if you prefer npm:
 
 1. `npm i @exampledev/new.css`
 
+### yarn
+
+With Yarn:
+
+1. `yarn add @exampledev/new.css`
+
 ## Use Cases
 - A dead-simple blog
 - Collecting your most used links
