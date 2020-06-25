@@ -282,7 +282,8 @@ pre {
 	border: 1px solid var(--nc-bg-3);
 	border-radius: 4px;
 	padding: 3px 6px;
-	font-size: 0.9rem;
+	/* ↓ font-size is relative to containing element, so it scales for titles*/
+	font-size: 0.9em;
 }
 
 kbd {
