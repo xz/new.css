@@ -17,7 +17,7 @@ All it does is set some sensible defaults and styles your HTML to look reasonabl
 
 ---
 
-## Table of Contents
+## Table Of Contents
 
 - Usage
 - Themes
