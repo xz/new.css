@@ -23,7 +23,7 @@ All it does is set some sensible defaults and styles your HTML to look reasonabl
 - Themes
     - Theme Library
     - Customizing Themes
-- FAQ
+- FAQs
 - Made with new.css
 - Sponsors
 - Support
