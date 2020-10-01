@@ -72,7 +72,7 @@ Information is available [on the wiki](https://github.com/xz/new.css/wiki/Custom
 
 **Why should I use this instead of (popular framework)?**
 
-new.css wasn't made to be a true framework. It's made for rapidly prototyping your raw HTML or setting up a good-looking simple HTML site with zero configuration.
+new.css wasn't made to be a true framework. It's made for rapidly prototyping your raw HTML or setting up a good-looking simple HTML site with zero configuration. and also to give you idea of how to get to the theme works with this technology.
 
 **Does this work with (platform/service)?**
 
