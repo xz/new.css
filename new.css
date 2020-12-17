@@ -265,6 +265,10 @@ input[type="button"]:enabled:hover {
 	background: var(--nc-lk-2);
 }
 
+a img {
+	margin-bottom: 0px;
+}
+
 code,
 pre,
 kbd,
