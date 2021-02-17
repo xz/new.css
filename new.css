@@ -120,9 +120,7 @@ h1,
 h2,
 h3 {
 	color: var(--nc-tx-1);
-	padding-bottom: 2px;
 	margin-bottom: 8px;
-	border-bottom: 1px solid var(--nc-bg-2);
 }
 
 h4,
