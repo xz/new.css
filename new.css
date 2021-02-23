@@ -442,6 +442,15 @@ input {
 	box-sizing: border-box;
 }
 
+/* padding is not working for select.
+   so height = padding-x + font-size
+*/
+select {
+        height: 28.48px; /* for old browsers */
+        height: 1.78rem;
+        height: calc(1.03rem+12px); /* for new browsers */
+}
+
 img {
 	max-width: 100%;
 }
