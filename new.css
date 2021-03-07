@@ -431,7 +431,7 @@ mark {
 
 textarea,
 select,
-input {
+input:not([type='range]) {
 	padding: 6px 12px;
 	margin-bottom: .5rem;
 	background: var(--nc-bg-2);
