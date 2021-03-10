@@ -220,6 +220,41 @@ header > *:last-child {
 	margin-bottom: 0;
 }
 
+footer {
+	background: var(--nc-bg-2);
+	border-top: 1px solid var(--nc-bg-3);
+	padding: 2rem 1.5rem;
+
+	/* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
+
+	margin: 2rem calc(0px - (50vw - 50%)) -2rem;
+
+	/* Shorthand for:
+	margin-top: -2rem;
+	margin-bottom: 2rem;
+	margin-left: calc(0px - (50vw - 50%));
+	margin-right: calc(0px - (50vw - 50%)); */
+
+	padding-left: calc(50vw - 50%);
+	padding-right: calc(50vw - 50%);
+}
+
+footer h1,
+footer h2,
+footer h3 {
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+footer > *:first-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer > *:last-child {
+	margin-top: 0;
+}
+
 a button,
 button,
 input[type="submit"],
