@@ -275,12 +275,6 @@ kbd,
 samp {
 	/* Set the font family for monospaced elements */
 	font-family: var(--nc-font-mono);
-}
-
-code,
-samp,
-kbd,
-pre {
 	/* The main preformatted style. This is changed slightly across different cases. */
 	background: var(--nc-bg-2);
 	border: 1px solid var(--nc-bg-3);
