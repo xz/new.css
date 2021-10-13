@@ -190,16 +190,16 @@ header {
 	
 	/* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
 
-	margin: -2rem calc(0px - (50vw - 50%)) 2rem;
+	margin: -2rem calc(50% - 50vw) 2rem;
 
 	/* Shorthand for:
 
 	margin-top: -2rem;
 	margin-bottom: 2rem;
 
-	margin-left: calc(0px - (50vw - 50%));
-	margin-right: calc(0px - (50vw - 50%)); */
-	
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw); */
+
 	padding-left: calc(50vw - 50%);
 	padding-right: calc(50vw - 50%);
 }
