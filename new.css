@@ -381,7 +381,7 @@ legend {
 table {
 	/* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
 	border-collapse: collapse;
-	width: 100%
+	width: 100%;
 }
 
 td,
