@@ -80,6 +80,7 @@ new.css uses a color palette that can be easily customized. These are declared a
 Pre-made themes include:
 - Night Theme
 - Terminal Theme
+
 See pre-made themes at [newcss.net/themes](https://newcss.net/themes/).
 
 ### Customizing Themes
