@@ -12,19 +12,24 @@ All it does is set some sensible defaults and styles your HTML to look reasonabl
 - Collecting your most used links
 - Making a simple "about me" site
 - Rendering markdown-generated HTML
+- Creating a quick simple website
 
 **Demo: [newcss.net](https://newcss.net/?ref=github_demo)**
+
+new.css is also a great source for novice web developers
+The simplicity of new.css allows it to be a hands-on and easy-to-understand learning resource for beginners learning CSS and HTML
 
 ---
 
 ## Table of Contents
 
 - Usage
+- Features
 - Themes
     - Theme Library
     - Customizing Themes
+- Contributing
 - FAQ
-- Made with new.css
 - Sponsors
 - Support
 
@@ -55,6 +60,16 @@ npm i @exampledev/new.css
 ```shell
 yarn add @exampledev/new.css
 ```
+## Features
+
+new.css allows users to make modern web pages using basic HTML that include styling for the following features:
+- Headers
+- Blockquotes
+- Tables
+- Short Inline code
+- Code Blocks
+- Keyboard Text
+- Toggle-able drop-down text
 
 ## Themes
 
@@ -62,10 +77,14 @@ new.css uses a color palette that can be easily customized. These are declared a
 
 ### Theme Library
 
+Pre-made themes include:
+- Night Theme
+- Terminal Theme
 See pre-made themes at [newcss.net/themes](https://newcss.net/themes/).
 
 ### Customizing Themes
 
+Users can create their own themes and customize them to their liking.
 Information is available [on the wiki](https://github.com/xz/new.css/wiki/Customizing-Themes).
 
 ## FAQ
@@ -79,6 +98,15 @@ new.css wasn't made to be a true framework. It's made for rapidly prototyping yo
 new.css was designed to work with nothing but raw HTML, but some awesome community members are porting it to other platforms. 
 
 Check if your platform or service supports custom CSS. If it does, it'll probably work. You're welcome to [ask the community](https://discord.gg/hhuuC4w) as well.
+
+**Will this make my website mobile-friendly?
+
+Yes, using new.css as a framework for your website will allow it to be mobile-friendly.
+All themes, including customized ones, are mobile-friendly.
+
+## Contributing
+Interested in improving and building new.css?
+Click [here](https://github.com/xz/new.css/blob/master/CONTRIBUTING.md) to view contributing guidelines.
 
 ## Sponsors
 - <a href="https://domaincord.org/?utm_source=xz&utm_campaign=new.css">Domaincord</a> (also a domain name discussion group <a href="https://discord.gg/239EP7G">here</a>!)
