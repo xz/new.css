@@ -16,7 +16,8 @@ All it does is set some sensible defaults and styles your HTML to look reasonabl
 
 **Demo: [newcss.net](https://newcss.net/?ref=github_demo)**
 
-new.css is also a great source for novice web developers
+new.css is also a great source for novice web developers.
+
 The simplicity of new.css allows it to be a hands-on and easy-to-understand learning resource for beginners learning CSS and HTML
 
 ---
@@ -86,6 +87,7 @@ See pre-made themes at [newcss.net/themes](https://newcss.net/themes/).
 ### Customizing Themes
 
 Users can create their own themes and customize them to their liking.
+
 Information is available [on the wiki](https://github.com/xz/new.css/wiki/Customizing-Themes).
 
 ## FAQ
@@ -103,6 +105,7 @@ Check if your platform or service supports custom CSS. If it does, it'll probabl
 **Will this make my website mobile-friendly?**
 
 Yes, using new.css as a framework for your website will allow it to be mobile-friendly.
+
 All themes, including customized ones, are mobile-friendly.
 
 ## Contributing
