@@ -99,7 +99,7 @@ new.css was designed to work with nothing but raw HTML, but some awesome communi
 
 Check if your platform or service supports custom CSS. If it does, it'll probably work. You're welcome to [ask the community](https://discord.gg/hhuuC4w) as well.
 
-**Will this make my website mobile-friendly?
+**Will this make my website mobile-friendly?**
 
 Yes, using new.css as a framework for your website will allow it to be mobile-friendly.
 All themes, including customized ones, are mobile-friendly.
