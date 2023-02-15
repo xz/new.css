@@ -237,7 +237,6 @@ input[type="button"] {
 	border-radius: 4px;
 	box-sizing: border-box;
 	cursor: pointer;
-	color: var(--nc-lk-tx);
 }
 
 a button[disabled],
