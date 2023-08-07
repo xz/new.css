@@ -436,7 +436,8 @@ mark {
 textarea,
 select,
 input {
-	padding: 6px 12px;
+	font-size: 16px;
+	padding: 3px 6px;
 	margin-bottom: .5rem;
 	background: var(--nc-bg-2);
 	color: var(--nc-tx-2);
