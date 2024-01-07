@@ -41,7 +41,7 @@ Add this line to the end of your HTML's `<head>`:
 If you'd like the font [Inter](https://rsms.me/inter) as well (recommended), add this line as well:
 
 ```html
-<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
 ```
 
 ### npm
