@@ -1,6 +1,7 @@
 @import url("https://fonts.xz.style/serve/fira-code.css");
 
 :root {
+	--nc-font-heading: 'Fira Code', monospace;
 	--nc-font-sans: 'Fira Code', monospace;
 	--nc-font-mono: 'Fira Code', monospace;
 	--nc-tx-1: #FFFFFF;
