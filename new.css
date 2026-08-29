@@ -36,9 +36,9 @@
 		--nc-bg-3: var(--nc-d-bg-3);
 		--nc-lk-1: var(--nc-d-lk-1);
 		--nc-lk-2: var(--nc-d-lk-2);
-		--nc-lk-tx: var(--nc--dlk-tx);
+		--nc-lk-tx: var(--nc-d-lk-tx);
 		--nc-ac-1: var(--nc-d-ac-1);
-		--nc-ac-tx: var(--nc--dac-tx);
+		--nc-ac-tx: var(--nc-d-ac-tx);
 	}
 }
 
