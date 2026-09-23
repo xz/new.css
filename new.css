@@ -204,6 +204,27 @@ header {
 	padding-right: calc(50vw - 50%);
 }
 
+nav {
+	/* Clone of <header> for links */
+	background: var(--nc-bg-2);
+	border-bottom: 1px solid var(--nc-bg-3);
+	padding: 2rem 1.5rem;
+	
+	margin: -2rem calc(0px - (50vw - 50%)) 2rem;
+	
+	padding-left: calc(50vw - 50%);
+	padding-right: calc(50vw - 50%);
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--nc-tx-1);
+}
+nav a:hover {
+	text-decoration: underline;
+	color: var(--nc-lk-2);
+}
+
 header h1,
 header h2,
 header h3 {
